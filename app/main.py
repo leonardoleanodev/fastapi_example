@@ -10,7 +10,7 @@ async def root():
     return []
 
 @app.get("/up")
-async def root():
+async def root_b():
     response = requests.post("http://localhost:8000/")
     
     return response
